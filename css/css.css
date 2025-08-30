@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #884c2f;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    background: url('banner-placeholder.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+    color: #884c2f;
+}
+
+.banner-text span {
+    font-size: 24px;
+    color: #c9a58b;
+}
+
+.banner-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #884c2f;
+    background: none;
+    color: #884c2f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* New Arrival */
+.new-arrival {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    width: 120px;
+    font-size: 14px;
+}
+
+.product span {
+    color: red;
+    font-weight: bold;
+}
+
+/* Product Feature */
+.product-feature {
+    padding: 40px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.categories div a {
+    display: block;
+    margin-top: 5px;
+    color: red;
+    text-decoration: none;
+}
+
+/* Blog */
+.blog {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.card {
+    background: #fafafa;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #ddd;
+}
+
+/* Contact */
+.contact {
+    background: #eee;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-box input,
+.contact-box textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-box button {
+    background-color: #884c2f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
